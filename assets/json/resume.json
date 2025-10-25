@@ -1,37 +1,55 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Qirui(Micheli) Liu",
+    "label": "Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "micheli.liu@alumni.emory.edu",
+    "phone": "",
+    "url": "https://micheliliuv87.github.io/",
+    "summary": "To build multiple copies of myself, I first learned how to automate things",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Atlanta",
       "countryCode": "US",
-      "region": "California"
+      "region": "Georgia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/micheli87/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
+      "name": "Emory University",
+      "position": "Graduate Research Assistant",
+      "url": "",
+      "startDate": "2024-07",
+      "endDate": "Present",
+      "summary": "Working on inference models, LLM theories, and DL/RL pipelines.",
+      "highlights": ["INFORMS Presentation, ICIS In Proceeding"]
+    },
+    {
+      "name": "ByteDance",
+      "position": "Data Specialist (LLM Training)",
+      "url": "",
+      "startDate": "2025-07",
+      "endDate": "Present",
+      "summary": "Data labeling, defining rubrics for LLM model training.",
+      "highlights": [""]
+    },
+    {
+      "name": "Miracle Plus",
+      "position": "Product Manager",
+      "url": "https://www.miracleplus.com/",
+      "startDate": "2023-10",
+      "endDate": "2025-08",
+      "summary": "Designed automated AI agents to operate a forum. Authored AI production and application-focused research reports.", 
+      "highlights": ["INFORMS Presentation, ICIS In Proceeding"]
+    },    
   ],
   "volunteer": [
     {
