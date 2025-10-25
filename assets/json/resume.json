@@ -212,17 +212,28 @@
   "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Python, R & SQL",
+      "level": "Expert",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "keywords": ["Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Keras", "dplyr", "grf", "glmnet", "CausalImpact", "SQLite", "MySQL"]
+    },
+    {
+      "name": "Cloud Platforms & Tools",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["AWS S3 & EC2", "Google Cloud Platform", "Azure", "Databricks", "Tableau", "PowerBI"]
+    },
+    {
+      "name": "Web Development & Version Control",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["HTML", "CSS", "JavaScript", "Git", "GitHub"]
+    },
+    {
+      "name": "Software Development",
+      "level": "Beginner",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["OOP", "Test automation (selenium)"]
     }
   ],
   "languages": [
