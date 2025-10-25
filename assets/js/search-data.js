@@ -448,6 +448,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
+        id: 'social-discord',
+        title: 'Discord',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://discord.com/users/mickyv87", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -460,13 +467,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/Micheliliuv87", "_blank");
-        },
-      },{
-        id: 'social-gitlab',
-        title: 'GitLab',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://gitlab.com/mickyv87", "_blank");
         },
       },{
         id: 'social-linkedin',
