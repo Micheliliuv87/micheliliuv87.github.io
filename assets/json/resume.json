@@ -6,7 +6,7 @@
     "email": "micheli.liu@alumni.emory.edu",
     "phone": "",
     "url": "https://micheliliuv87.github.io/",
-    "summary": "To build multiple copies of myself, I first learned how to automate things",
+    "summary": "To build multiple copies of myself, I first learned how to automate things.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -69,7 +69,9 @@
       "startDate": "2023-02",
       "endDate": "2023-10",
       "summary": "Research and due diligence, finalized investment deals.",
-      "highlights": []
+      "highlights": [
+        "Recognized for 'Hundred Innovators Leading Award' from company"
+      ]
     },      
     {
       "name": "Sinolink Security",
@@ -196,17 +198,17 @@
   "awards": [],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Microsoft Certified: Azure AI Fundamentals",
+      "date": "2024-10",
+      "issuer": "Microsoft",
+      "url": "https://www.credly.com/badges/3d44b31a-f242-4e6b-be1c-c3d1cbd23ae2/linked_in_profile",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "IBM Project Manager",
+      "date": "2024-05-07",
+      "issuer": "IBM & SkillUp",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/YEFMUPYPKVRV",
       "icon": "fa-solid fa-tag"
     },
     {
