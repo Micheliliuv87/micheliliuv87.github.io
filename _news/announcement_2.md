@@ -10,7 +10,6 @@ Currently fine-tuning a small size LLM to mimic myself in how I speak. (Check ba
 
 ---
 
-
 #### What will it look like:
 
 <ul>
@@ -21,4 +20,3 @@ Currently fine-tuning a small size LLM to mimic myself in how I speak. (Check ba
 </ul>
 
 ---
-
