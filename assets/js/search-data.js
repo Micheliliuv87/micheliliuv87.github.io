@@ -394,8 +394,8 @@ ninja.data = [{
             },},{id: "news-graduated-from-emory-university",
           title: 'Graduated From Emory University',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-upcomming-updates",
+          title: 'Upcomming Updates',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
@@ -448,18 +448,18 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-discord',
-        title: 'Discord',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://discord.com/users/mickyv87", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6D%69%63%68%65%6C%69.%6C%69%75@%61%6C%75%6D%6E%69.%65%6D%6F%72%79.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-discord',
+        title: 'Discord',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://discord.com/users/mickyv87", "_blank");
         },
       },{
         id: 'social-github',
@@ -476,18 +476,18 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/micheli87", "_blank");
         },
       },{
-        id: 'social-wechat_qr',
-        title: 'Wechat_qr',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/Mickyv87", "_blank");
+        },
+      },{
+        id: 'social-wechat_qr',
+        title: 'Wechat_qr',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
