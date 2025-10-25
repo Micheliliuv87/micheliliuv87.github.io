@@ -30,10 +30,7 @@
       "startDate": "2024-07",
       "endDate": "Present",
       "summary": "Working on inference models, LLM theories, and DL/RL pipelines.",
-      "highlights": [
-        "INFORMS Presentation",
-        "ICIS In Proceeding"
-      ]
+      "highlights": ["INFORMS Presentation", "ICIS In Proceeding"]
     },
     {
       "name": "ByteDance",
@@ -69,10 +66,8 @@
       "startDate": "2023-02",
       "endDate": "2023-10",
       "summary": "Research and due diligence, finalized investment deals.",
-      "highlights": [
-        "Recognized for 'Hundred Innovators Leading Award' from company"
-      ]
-    },      
+      "highlights": ["Recognized for 'Hundred Innovators Leading Award' from company"]
+    },
     {
       "name": "Sinolink Security",
       "position": "Financial Advisor",
@@ -81,7 +76,7 @@
       "endDate": "2023-02",
       "summary": "Provided investment advisory to clients.",
       "highlights": []
-    },  
+    },
     {
       "name": "Miami University Student Managed Investment Fund",
       "position": "Equity Analyst",
@@ -108,7 +103,7 @@
       "endDate": "2019-08",
       "summary": "Internship focused on portfolio returns and equity research.",
       "highlights": []
-    }    
+    }
   ],
   "volunteer": [
     {
@@ -119,10 +114,8 @@
       "startDate": "2018-10",
       "endDate": "2022-05",
       "summary": "Teaching calligraphy and traditional arts to participants. Showcased student art works at annual art events at Miami University.",
-      "highlights": [
-        "Recognized by the President of Miami University"
-      ]
-    },    
+      "highlights": ["Recognized by the President of Miami University"]
+    },
     {
       "organization": "EcoReps Miami University",
       "location": "Ohio, United States",
@@ -131,11 +124,8 @@
       "startDate": "2018-09",
       "endDate": "2022-05",
       "summary": "Facilitated campus sustainability and environmental protection.",
-      "highlights": [
-        "Fundraised and promoted 'Walter Bottle' project",
-        "Recognized for campus involvement"
-      ]
-    },      
+      "highlights": ["Fundraised and promoted 'Walter Bottle' project", "Recognized for campus involvement"]
+    },
     {
       "organization": "Richard L. Nault Chapter of National Residence Hall Honorary",
       "location": "Ohio, United States",
@@ -144,11 +134,8 @@
       "startDate": "2019-05",
       "endDate": "2020-05",
       "summary": "Oversaw the writing bid process for national and regional leadership conferences. Organized induction process.",
-      "highlights": [
-        "Awarded 'Student Spotlight' award for campus involvement",
-        "Recognized by the NRHH committee"
-      ]
-    },  
+      "highlights": ["Awarded 'Student Spotlight' award for campus involvement", "Recognized by the NRHH committee"]
+    },
     {
       "organization": "RISE Alternative Springbreak -- Nashville Gentrification",
       "location": "Ohio, United States",
@@ -157,10 +144,8 @@
       "startDate": "2018-10",
       "endDate": "2019-04",
       "summary": "Organized service trip to Nashville, Tennessee, focusing on recognizing and understanding gentrification.",
-      "highlights": [
-        "Recognized by Miami University Student Life News"
-      ]
-    }  
+      "highlights": ["Recognized by Miami University Student Life News"]
+    }
   ],
   "education": [
     {
@@ -168,31 +153,22 @@
       "location": "Georgia, United States",
       "url": "https://www.emory.edu",
       "area": "Business Analysis",
-      "studyType": "MS",
+      "studyType": "MS.",
       "startDate": "2024-07",
       "endDate": "2025-05",
       "score": "",
-      "courses": [
-        "Machine Learning",
-        "Causal Inference",
-        "Deep/Reinforcement Learning",
-        "Business Analysis"
-      ]
+      "courses": ["Machine Learning", "Causal Inference", "Deep/Reinforcement Learning", "Business Analysis"]
     },
     {
       "institution": "Miami University",
       "location": "Ohio, United States",
       "url": "https://miamioh.edu",
       "area": "Finance",
-      "studyType": "BA",
+      "studyType": "BA.",
       "startDate": "2018-08",
       "endDate": "2022-05",
       "score": "",
-      "courses": [
-        "Portfolio Management",
-        "Option Trading Derivatives",
-        "Statistics"
-      ]
+      "courses": ["Portfolio Management", "Option Trading Derivatives", "Statistics"]
     }
   ],
   "awards": [],
@@ -202,7 +178,7 @@
       "date": "2024-10",
       "issuer": "Microsoft",
       "url": "https://www.credly.com/badges/3d44b31a-f242-4e6b-be1c-c3d1cbd23ae2/linked_in_profile",
-      "icon": "https://cdn.simpleicons.org/microsoft"
+      "icon": "fa-solid fa-tag"
     },
     {
       "name": "IBM Project Manager",
@@ -216,21 +192,21 @@
       "date": "2024-05-08",
       "issuer": "Tableau",
       "url": "https://www.coursera.org/account/accomplishments/specialization/AG9VPAP75QBS",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-tag"
     },
     {
       "name": "Google Data Analytics",
       "date": "2024-03-24",
       "issuer": "Google",
       "url": "https://www.coursera.org/account/accomplishments/specialization/Z8A6T4GETVZS",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-tag"
     },
     {
       "name": "Bloomberg Market Concepts",
       "date": "2022-05-03",
       "issuer": "Bloomberg",
       "url": "3UjUeFC7pbMtrpUAie2PoPkV",
-      "icon": "fa-solid fa-calendar"
+      "icon": "fa-solid fa-tag"
     }
   ],
   "publications": [],
@@ -263,27 +239,30 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Machine Learning & AI",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "keywords": ["Supervised Fine-tuning", "Reinforcement Learning with Human Feedback", "Nueral Networks", "Graphical Neural Networks"]
+    },
+    {
+      "name": "Cusal Inference & Econometrics",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["A/B Testing", "Uplift Modeling", "Difference-in-Differences", "Instrumental Variables"]
+    },
+    {
+      "name": "Finance & Investment",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Behavioral Finance", "Equity Research", "Portfolio Management", "Derivatives Trading"]
+    },
+    {
+      "name": "Public Policy & Social Impact",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Platform Sustainability", "Social Impact Analysis"]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Rajiv Garg",
       "icon": "fa-solid fa-laptop",
-      "reference": "Reference available upon request."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
       "reference": "Reference available upon request."
     }
   ],
@@ -291,10 +270,7 @@
     {
       "name": "Quantum Computing",
       "summary": "Research and projects related to quantum computing, including simulations and algorithm exploration.",
-      "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
-      ],
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
       "url": "https://example.com"
