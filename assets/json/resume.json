@@ -268,12 +268,27 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Research and projects related to quantum computing, including simulations and algorithm exploration.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Delta Airline Database and Aiport Loyalty Product Design",
+      "summary": "Work on building relational and NoSQL database for Delta Airline operations. Built a demo airport loyalty product using the database.",
+      "highlights": [],
+      "startDate": "2024-08",
+      "endDate": "2024-11",
+      "url": "https://www.youtube.com/watch?v=-kxQU1z5MRQ"
+    },
+    {
+      "name": "Supermarket Recommender System",
+      "summary": "Built collaborative filtering (KNN) and matrix factorization models using PySpark MLlib on GCP Databricks to recommend products based on 13B+ customer transactions.",
+      "highlights": [],
+      "startDate": "2025-01",
+      "endDate": "2025-05"
+    },
+    {
+      "name": "Synthetic Control & Geo Testing",
+      "summary": "Determined the causal impact of ACME Manufacturing's Google P-Max Marketing campaigns on weekly order volume using a holdout geo-experiment. ",
+      "highlights": [],
+      "startDate": "2025-01",
+      "endDate": "2025-05",
+      "url": "https://drive.google.com/file/d/1TE0LiKtSXoqSsb5wh2TB2Jl7wRSlOPQD/view?usp=sharing"
     }
   ]
 }
