@@ -4,11 +4,11 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-**Qirui(Micheli) Liu** is a graduate from Emory University Goizueta Business School 2025, currently serving as a Graduate Research Assistant advised by [Prof. Rajiv Garg](https://www.rajivgarg.org/).
+<!-- **Qirui(Micheli) Liu** is a graduate from Emory University Goizueta Business School 2025, currently serving as a Graduate Research Assistant advised by [Prof. Rajiv Garg](https://www.rajivgarg.org/).
 
 His research focuses on Information Systems, particularly causal inference and applied machine learning. To learn more about his work, see [publication](/publications/).
 
----
+--- -->
 
 <!-- <div style="font-size: 0.95em; line-height: 2.5;">
   <i class="fa-brands fa-github fa-fw" style="margin-right: 0.5em;"></i><a href="https://github.com/fla-org/flash-linear-attention">Flash Linear Attention</a> <span style="font-size: 0.85em; color: #999;">efficient attention implementations in Triton</span><br>
