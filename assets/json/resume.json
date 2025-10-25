@@ -50,27 +50,84 @@
       "url": "https://www.miracleplus.com/",
       "startDate": "2023-10",
       "endDate": "2025-08",
-      "summary": "Designed automated AI agents to operate a forum. Authored AI production and application-focused research reports.",
-      "highlights": [
-        "INFORMS Presentation",
-        "ICIS In Proceeding"
-      ]
-    }
+      "summary": "Developed automated AI agents to operate a forum. Authored AI production and application-focused research reports.",
+      "highlights": []
+    },
+    {
+      "name": "NCR Voiyx",
+      "position": "Data Scientist",
+      "url": "https://www.ncrvoyix.com/",
+      "startDate": "2024-12",
+      "endDate": "2025-05",
+      "summary": "Developed recommender system pipeline for new products.",
+      "highlights": []
+    },
+    {
+      "name": "Miracle Plus",
+      "position": "Head of Entrepreneurial Expansion",
+      "url": "https://www.miracleplus.com/",
+      "startDate": "2023-02",
+      "endDate": "2023-10",
+      "summary": "Research and due diligence, finalized investment deals.",
+      "highlights": []
+    },      
+    {
+      "name": "Sinolink Security",
+      "position": "Financial Advisor",
+      "url": "https://www.gjzq.com.cn/main/index.html",
+      "startDate": "2023-01",
+      "endDate": "2023-02",
+      "summary": "Provided investment advisory to clients.",
+      "highlights": []
+    },  
+    {
+      "name": "Miami University Student Managed Investment Fund",
+      "position": "Equity Analyst",
+      "url": "https://miamioh.edu/fsb/departments/finance/student-investment-fund.html",
+      "startDate": "2022-01",
+      "endDate": "2022-05",
+      "summary": "Investment portfolio management.",
+      "highlights": []
+    }      
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the People's Climate March branch in Zurich.",
+      "organization": "Caligraphy & Chinese Traditional Painting Club, Miami University",
+      "location": "Ohio, United States",
+      "position": "Cligraphy Teacher",
+      "url": "https://events.miamioh.edu/event/art_after_dark_4057",
+      "startDate": "2018-10",
+      "endDate": "2022-05",
+      "summary": "Teaching calligraphy and traditional arts to participants. Showcased student art works at annual art events at Miami University.",
       "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for organizing efforts.",
-        "Recognized by local press in 2014"
+        "Recognized by the President of Miami University"
       ]
-    }
+    },    
+    {
+      "organization": "Richard L. Nault Chapter of National Residence Hall Honorary",
+      "location": "Ohio, United States",
+      "position": "Vice President",
+      "url": "https://muhub.campuslabs.com/engage/organization/NRHH",
+      "startDate": "2019-05",
+      "endDate": "2020-05",
+      "summary": "Oversaw the writing bid process for national and regional leadership conferences. Organized induction process.",
+      "highlights": [
+        "Awarded 'Student Spotlight' award for campus involvement",
+        "Recognized by the NRHH committee"
+      ]
+    },
+    {
+      "organization": "RISE Alternative Springbreak -- Nashville Gentrification",
+      "location": "Ohio, United States",
+      "position": "Site Leader",
+      "url": "https://www.miamioh.edu/news/top-stories/2019/03/alternative-spring-break-2019.html",
+      "startDate": "2018-10",
+      "endDate": "2022-05",
+      "summary": "Organized service trip to Nashville, Tennessee, focusing on recognizing and understanding gentrification.",
+      "highlights": [
+        "Recognized by Miami University Student Life News"
+      ]
+    }    
   ],
   "education": [
     {
@@ -148,13 +205,13 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Chinese",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
