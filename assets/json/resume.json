@@ -202,7 +202,7 @@
       "date": "2024-10",
       "issuer": "Microsoft",
       "url": "https://www.credly.com/badges/3d44b31a-f242-4e6b-be1c-c3d1cbd23ae2/linked_in_profile",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "https://cdn.simpleicons.org/microsoft"
     },
     {
       "name": "IBM Project Manager",
