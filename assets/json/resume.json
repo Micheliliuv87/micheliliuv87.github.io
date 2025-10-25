@@ -212,32 +212,25 @@
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Tableau Business Intelligence Analyst",
+      "date": "2024-05-08",
+      "issuer": "Tableau",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/AG9VPAP75QBS",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Google Data Analytics",
+      "date": "2024-03-24",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/Z8A6T4GETVZS",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Bloomberg Market Concepts",
+      "date": "2022-05-03",
+      "issuer": "Bloomberg",
+      "url": "3UjUeFC7pbMtrpUAie2PoPkV",
       "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [],
