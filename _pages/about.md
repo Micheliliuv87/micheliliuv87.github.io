@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: ProfessionalImg.jpg
+  image: ProfessionalImg2.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
 
@@ -30,7 +30,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-**Qirui(Micheli) Liu** is a graduate from Emory University Goizueta Business School 2025, currently serving as a Graduate Research Assistant advised by [Prof. Rajiv Garg](https://www.rajivgarg.org/). 
+**Qirui(Micheli) Liu** is a graduate from Emory University Goizueta Business School 2025, currently serving as a Graduate Research Assistant advised by [Prof. Rajiv Garg](https://www.rajivgarg.org/).
 
 His research focuses on Information Systems, particularly causal inference and applied machine learning. To learn more about his work, see [publication](/publications/).
 
