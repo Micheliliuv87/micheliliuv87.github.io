@@ -6,17 +6,17 @@ inline: false
 related_posts: false
 ---
 
-Currently fine-tuning a small size LLM to mimic myself in how I speak. (Check back in one or two months)
+Currently fine-tuning a small size LLM to mimic myself in how I speak. (Come back in one or two months)
 
 ---
 
 #### What will it look like:
 
 <ul>
-    <li>Ask "me" anything about story</li>
-    <li>You can expect that for some prompts you enter, the responses will be what I could actually say</li>
-    <li>Humorous</li>
-    <li>Probabbly won't make up too much stuff...</li>
+    <li>Ask "me" anything about my stories</li>
+    <li>You can expect that for some prompts that you enter, the responses will be what I could actually say</li>
+    <li>Will be humorous</li>
+    <li>Probabbly won't make up too much stuff about me...</li>
 </ul>
 
 ---
