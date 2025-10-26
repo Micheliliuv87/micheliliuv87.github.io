@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: qiruiliu.pdf # you can also use external links here
-description: 
+description:
 toc:
   sidebar: left
 ---

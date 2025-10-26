@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -32,7 +32,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 **Qirui(Micheli) Liu** is a graduate from Emory University Goizueta Business School 2025, currently serving as a Graduate Research Assistant advised by [Prof. Rajiv Garg](https://www.rajivgarg.org/).
 
-His research focuses on Information Systems, particularly causal inference and applied machine learning. To learn more about his work, see [publication](/publications/).
+His research focuses on Information Systems, particularly causal inference and applied machine learning. To learn more about his work, see [repositories](/repositories/).
 
 ---
 
