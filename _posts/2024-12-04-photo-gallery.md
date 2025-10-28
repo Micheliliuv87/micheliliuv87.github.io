@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: a post with image galleries
 date: 2024-12-04 01:59:00
@@ -11,7 +11,7 @@ images:
   photoswipe: true
   spotlight: true
   venobox: true
----
+--- -->
 
 The images in this post are all zoomable, arranged into different mini-galleries using different libraries.
 
