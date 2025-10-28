@@ -32,7 +32,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 **Qirui(Micheli) Liu** is a graduate from Emory University Goizueta Business School 2025, currently serving as a Graduate Research Assistant at Emory University.
 
-His research focuses on Information Systems, particularly causal inference and applied machine learning. To learn more about his work, see [publications](/publications/).
+His research focuses on Information Systems, particularly causal inference and applied machine learning. 
+
+<!-- To learn more about his work, see [publications](/publications/). -->
 
 ---
 

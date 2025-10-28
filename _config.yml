@@ -257,8 +257,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["Tutorials", "Thoughts", "Charts", "Story", "Notes", "Game"] # these tags will be displayed on the front page of your blog
-display_categories: ["LLM"] # these categories will be displayed on the front page of your blog
+display_tags: ["Tutorials", "Notes"] # these tags will be displayed on the front page of your blog
+display_categories: ["LLM", "Neural Network", "Statistics", "Text Processing", "Computer Vision"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

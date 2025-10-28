@@ -4,7 +4,7 @@ title: The Bag of Words Model, A Comprehensive Analysis of NLP's Foundational Te
 date: 2025-01-02 16:40:16
 description: BoW introduction, history, and use cases
 tags: Tutorials
-categories: Text-processing
+categories: "Text Processing"
 citation: true
 authors:
   - name: Qirui(Micheli) Liu
