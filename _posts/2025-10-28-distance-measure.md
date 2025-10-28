@@ -5,6 +5,7 @@ date: 2025-10-28 01:46:22
 description: "Include many distance measures: which come in handy and help me through many of my data science projects"
 tags: Notes
 categories: Distance-measure
+featured: true
 citation: true
 authors:
   - name: Micheli Liu
