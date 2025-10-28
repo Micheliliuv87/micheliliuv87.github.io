@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Example Applications of Bag of Words
+title: Practical Applications of the Bag of Words Model
 date: 2025-01-05 21:30:21
 description: Application of Bag of words, examples of TF-IDF, Text Classification, and Sentiment Analysis.
-tags: BoW
+tags: Tutorials
 categories: Text-processing
 citation: true
+toc:
+  beginning: true
 ---
-
-
-# **Practical Applications of the Bag of Words Model**
 
 ## **Introduction & Recap**
 
@@ -212,7 +211,6 @@ plt.show()
 
 #### **TF-IDF Intuition**
 
-
 TF-IDF balances two factors :
 
 - **Term Frequency (TF)**: How often a word appears in a specific document
@@ -225,7 +223,6 @@ The product of these two values gives higher weight to words that are frequent i
 _TF-IDF helps identify the most distinctive words in documents, pushing similar documents closer together in vector space ._
 
 ## **Advanced Techniques & Best Practices**
-
 
 #### **Feature Engineering with N-grams**
 
@@ -255,7 +252,6 @@ X_hash = hash_vectorizer.transform(documents)
 ```
 
 ## **Conclusion**
-
 
 The Bag of Words model, while simple, remains remarkably powerful for practical text analysis tasks. Through our implementations, we've seen how BoW enables:
 

@@ -1,16 +1,12 @@
 ---
 layout: post
-title: An Introduction to Bag of Words
+title: The Bag of Words Model: A Comprehensive Analysis of NLP's Foundational Technique
 date: 2025-01-02 16:40:16
-description: BoW introduction, history, and use cases
-tags: BoW
+description: BoW introduction, history, and use cases.
+tags: Tutorials
 categories: Text-processing
 citation: true
 ---
-
----
-
-# **The Bag of Words Model: A Comprehensive Analysis of NLP's Foundational Technique**
 
 ## **Introduction to BoW**
 
