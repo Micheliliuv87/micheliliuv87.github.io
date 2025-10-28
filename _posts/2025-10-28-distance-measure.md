@@ -6,6 +6,12 @@ description: "Include many distance measures: which come in handy and help me th
 tags: Notes
 categories: Distance-measure
 citation: true
+authors:
+  - name: Micheli Liu
+    url: "https://micheliliuv87.github.io/"
+    affiliations: 
+        name: Emory University ISOM
+
 toc:
   - name: Cosine Type Distance
     subsections:
@@ -24,11 +30,7 @@ toc:
       - name: Manhalanobis Distance (Scaled Euclidean)
       - name: Canberra Distance (Weighted Manhattan)
 
-authors:
-  - name: Qirui(Micheli) Liu
-    url: "https://micheliliuv87.github.io/"
-    affiliations: 
-    name: Emory University ISOM
+
 ---
 
 ### **Notes for Readers:**
@@ -363,7 +365,7 @@ Spearman Correlation Distance: 2.220446049250313e-16
 
 <br>
 
-# **Gernalized Distance (Metrics)**
+# **Generalized Distance (Metrics)**
 
 ## **Minkowski Distance**
 
@@ -705,7 +707,7 @@ Sometimes a factor of 2 is seen in the formula (either in front or inside), but 
 #### **How It Works (Intuitive Understanding)**
 
 - For each coordinate j, first compute the absolute difference $\lvert s_j - t_j \rvert$.
-- Then divide by the sum $\lver s_j \rvert + \lver t_j \rvert$. If this sum is small, then that coordinate's contribution to the overall distance becomes larger.
+- Then divide by the sum $\lvert s_j \rvert + \lvert t_j \rvert$. If this sum is small, then that coordinate's contribution to the overall distance becomes larger.
 - Sum the results for all dimensions to get the Canberra distance.
 
 Compute $\frac{|1 - 2|}{|1| + |2|} + \frac{|10 - 5|}{|10| + |5|} + \frac{|0 - 3|}{|0| + |3|}$.
