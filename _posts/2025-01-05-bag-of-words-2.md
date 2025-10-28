@@ -1,13 +1,16 @@
 ---
-layout: post
+layout: distill
 title: Practical Applications of the Bag of Words Model
 date: 2025-01-05 21:30:21
-description: Application of Bag of words, examples of TF-IDF, Text Classification, and Sentiment Analysis.
+description: Application of Bag of words, examples of TF-IDF, Text Classification, and Sentiment Analysis
 tags: Tutorials
 categories: Text-processing
 citation: true
 toc:
-  beginning: true
+  sidebar: left
+authors:
+  - name: Qirui(Micheli) Liu
+    url: "https://micheliliuv87.github.io/"
 ---
 
 ## **Introduction & Recap**

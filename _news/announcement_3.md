@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Thank you for visiting! :sparkles: :smile:
+Posted [Distance-Measure-for-Data-Science](/_posts/2025-03-04-distance-measure.md), Very useful notes that I included my understanding in measuring distances.

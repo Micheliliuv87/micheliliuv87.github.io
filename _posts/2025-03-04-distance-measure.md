@@ -1,13 +1,32 @@
 ---
-layout: post
+layout: distill
 title: Distance Measures for Data Science
-date: 2025-01-05 21:30:21
-description: Include lots of distance measures, which come in handy and help me through many of my data science projects.
+date: 2025-10-28 01:46:22
+description: "Include many distance measures: which come in handy and help me through many of my data science projects"
 tags: Notes
 categories: Distance-measure
 citation: true
 toc:
-  beginning: true
+  - name: Cosine Type Distance
+    subsections:
+      - name: Cosine Distance
+      - name: Pearson Correlation Distance
+      - name: Spearman Correlation Distance (Rank Corr)
+
+  - name: Generalized Distance (Metrics)
+    subsections:
+      - name: Minkowski Distance
+      - name: Euclidean Distance
+      - name: Chebyshev Distance (Max diff. in Coordinate points)
+
+  - name: Scaled Weighted Distance
+    subsections:
+      - name: Manhalanobis Distance (Scaled Euclidean)
+      - name: Canberra Distance (Weighted Manhattan)
+
+authors:
+  - name: Qirui(Micheli) Liu
+    url: "https://micheliliuv87.github.io/"
 ---
 
 ### **Notes for Readers:**
@@ -453,7 +472,7 @@ Euclidean Distance: 5.385164807134504
 
 <br>
 
-## **Chebyshev Distance (Max Absolute Difference in Axis Points)**
+## **Chebyshev Distance (Max Absolute Difference in Coordinate Points)**
 
 <img src="https://iq.opengenus.org/content/images/2018/12/chebyshev.png
 " alt="Chebyshev Distance" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
@@ -724,7 +743,7 @@ Canberra Distance: 1.6666666666661998
 
 I believe it is very important to restate that all distances included in this blog post are the common ones that I used at least onece in either one of my school or work projects. So be aware that are many new distance measures that you may encounter in doing your own projects, don't hesitate to learn.
 
-#### **Many Distances Comparison **
+#### **Many Distances Comparison**
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UBVod31pjOcv41LJrBC7lg.jpeg" alt="Many Distances Comparison" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
 

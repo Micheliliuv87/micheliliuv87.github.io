@@ -1,11 +1,16 @@
 ---
-layout: post
-title: The Bag of Words Model: A Comprehensive Analysis of NLP's Foundational Technique
+layout: distill
+title: The Bag of Words Model, A Comprehensive Analysis of NLP's Foundational Technique
 date: 2025-01-02 16:40:16
-description: BoW introduction, history, and use cases.
+description: BoW introduction, history, and use cases
 tags: Tutorials
 categories: Text-processing
 citation: true
+authors:
+  - name: Qirui(Micheli) Liu
+    url: "https://micheliliuv87.github.io/"
+toc:
+  sidebar: left
 ---
 
 ## **Introduction to BoW**
@@ -123,12 +128,16 @@ As vocabulary size increases, BoW vectors become **high-dimensional** and **spar
 
 This approach reduces the influence of common words that appear frequently across many documents while emphasizing words that are distinctive to particular documents . The comparison below highlights key differences:
 
+---
+
 | Aspect                          | Bag-of-Words (BoW)                       | TF-IDF                              |
 | ------------------------------- | ---------------------------------------- | ----------------------------------- |
 | **Word Importance**             | Treats all words equally                 | Adjusts importance based on rarity  |
 | **Handling Common Words**       | Common words can dominate representation | Reduces weight of common words      |
 | **Document Length Sensitivity** | Highly sensitive to document length      | Normalizes for document length      |
 | **Complexity**                  | Simple and computationally inexpensive   | More complex due to IDF calculation |
+
+---
 
 #### **Word Embeddings and Deep Learning Approaches**
 
