@@ -8,7 +8,8 @@ categories: Text Processing
 citation: true
 ---
 
--------
+---
+
 Certainly! I will write the second post about the Bag of Words model with practical applications and code examples. The main contents of the post are as follows:
 
 - **Introduction and recap**: Briefly revisits the Bag of Words concept and previews practical applications.
@@ -17,7 +18,7 @@ Certainly! I will write the second post about the Bag of Words model with practi
 - **TF-IDF implementation**: Tutorial on calculating and visualizing TF-IDF with dimensionality reduction.
 - **Advanced techniques and conclusion**: Covers n-grams, feature hashing, and summarizes BoW applications.
 
-------
+---
 
 # Beyond the Basics: Practical Applications of the Bag of Words Model
 
@@ -67,18 +68,18 @@ df = pd.DataFrame(data)
 def preprocess_text(text):
     # remove non-alphabetic characters and convert to lowercase
     text = re.sub('[^A-Za-z]', ' ', text.lower())
-    
+
     #tokenize
     words = nltk.word_tokenize(text)
-    
+
     #remove stopwords
     stop_words = set(stopwords.words('english'))
     words = [word for word in words if word not in stop_words]
-    
+
     #apply stemming
     stemmer = PorterStemmer()
     words = [stemmer.stem(word) for word in words]
-    
+
     return ' '.join(words)
 
 # apply preprocessing
@@ -131,7 +132,7 @@ reviews = [
     'Poor direction and weak screenplay. Very disappointing.'
 ]
 
-sentiments = ['positive', 'negative', 'positive', 'negative', 
+sentiments = ['positive', 'negative', 'positive', 'negative',
               'positive', 'negative', 'positive', 'negative']
 
 # Create BoW model with unigrams and bigrams
@@ -193,7 +194,7 @@ dense_matrix = tfidf_matrix.todense()
 
 # display TF-IDF scores for first document
 first_doc = dense_matrix[0].tolist()[0]
-word_scores = sorted(zip(feature_names, first_doc), 
+word_scores = sorted(zip(feature_names, first_doc),
                     key=lambda x: x[1], reverse=True)[:5]
 
 print("Top terms in first document:")
@@ -210,7 +211,7 @@ plt.scatter(pca_result[:, 0], pca_result[:, 1], c='blue', s=100, alpha=0.7)
 
 #ddd document labels
 for i, txt in enumerate([f"Doc {i+1}" for i in range(len(documents))]):
-    plt.annotate(txt, (pca_result[i, 0], pca_result[i, 1]), 
+    plt.annotate(txt, (pca_result[i, 0], pca_result[i, 1]),
                  xytext=(5, 5), textcoords='offset points')
 
 plt.title('TF-IDF Document Visualization using PCA')
@@ -223,6 +224,7 @@ plt.show()
 #### TF-IDF Intuition
 
 TF-IDF balances two factors :
+
 - **Term Frequency (TF)**: How often a word appears in a specific document
 - **Inverse Document Frequency (IDF)**: How rare the word is across all documents
 
@@ -230,7 +232,7 @@ The product of these two values gives higher weight to words that are frequent i
 
 ![TF-IDF Visualization](https://i.ytimg.com/vi/zLMEnNbdh4Q/maxresdefault.jpg)
 
-*TF-IDF helps identify the most distinctive words in documents, pushing similar documents closer together in vector space .*
+_TF-IDF helps identify the most distinctive words in documents, pushing similar documents closer together in vector space ._
 
 ## Advanced Techniques & Best Practices
 
@@ -273,12 +275,13 @@ The true power of Bag of Words lies in its **versatility and interpretability**.
 
 While modern approaches like word embeddings and transformer models have their place for complex NLP tasks, Bag of Words remains an excellent starting point for most text analysis projects—offering a compelling balance of simplicity, interpretability, and effectiveness.
 
-*All code examples in this post are designed to be runnable with Python 3.6+ and standard data science libraries (pandas, scikit-learn, NLTK, matplotlib).*
+_All code examples in this post are designed to be runnable with Python 3.6+ and standard data science libraries (pandas, scikit-learn, NLTK, matplotlib)._
 
 ---
-*This practical guide builds upon the theoretical foundations established in our previous post about the Bag of Words model. Implement these techniques as a starting point for your text analysis projects, then experiment with different preprocessing approaches and parameter tuning to optimize for your specific use cases.*
 
-## References: 
+_This practical guide builds upon the theoretical foundations established in our previous post about the Bag of Words model. Implement these techniques as a starting point for your text analysis projects, then experiment with different preprocessing approaches and parameter tuning to optimize for your specific use cases._
+
+## References:
 
 1. [Python Bag of Words Models](https://www.datacamp.com/tutorial/python-bag-of-words-model)
 2. [Visualizing TF-IDF Scores: A Comprehensive Guide to Plotting a Document TF-IDF 2D Graph](https://www.geeksforgeeks.org/machine-learning/visualizing-tf-idf-scores-a-comprehensive-guide-to-plotting-a-document-tf-idf-2d-graph/)
