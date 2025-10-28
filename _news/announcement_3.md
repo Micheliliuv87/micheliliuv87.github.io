@@ -5,4 +5,4 @@ inline: true
 related_posts: true
 ---
 
-Check out my post ---- [Distance Measure for Data Science](blog/2025/distance-measure/), a useful note to understand distance measures and when to use them.
+Check out my post --- [Distance Measure for Data Science](blog/2025/distance-measure/), a useful note to understand distance measures and when to use them.
