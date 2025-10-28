@@ -129,7 +129,10 @@ Cosine Distance: 2.0
 **Vector Norm** (This $\|\mathbf{s}\|_2$ and $\|\mathbf{t}\|_2$ are the **Vector Norms**)
 
 - $\|\mathbf{s}\|_2$ is also called the L2 norm (Euclidean norm) of vector $\mathbf{s}$, which can be understood as the vector's length or magnitude.
-- Mathematical definition: $\|\mathbf{s}\|_2 = \sqrt{\sum_{j=1}^{d} s_j^2}$.
+- Mathematical definition: 
+
+    $$\|\mathbf{s}\|_2 = \sqrt{\sum_{j=1}^{d} s_j^2}$$
+
 - $\|\mathbf{s}\|_2$ represents the length of vector $\mathbf{s}$, calculated by squaring each coordinate, summing these squares, and then taking the square root.
 
 #### **Example:**
@@ -537,8 +540,7 @@ Chebyshev Distance: 6
 
 #### **Comparison Between Euclidean/ Manhattan/ Chebyshev Distance**
 
-<img src="https://iq.opengenus.org/content/images/2018/12/distance.jpg
-" alt="Compare Three Distance" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
+<img src="https://iq.opengenus.org/content/images/2018/12/distance.jpg" alt="Compare Three Distance" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
 
 ---
 
