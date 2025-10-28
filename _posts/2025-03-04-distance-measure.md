@@ -17,7 +17,7 @@ toc:
     subsections:
       - name: Minkowski Distance
       - name: Euclidean Distance
-      - name: Chebyshev Distance (Max diff. in Coordinate points)
+      - name: Chebyshev Distance (Max abs diff. in Coordinate points)
 
   - name: Scaled Weighted Distance
     subsections:
@@ -27,6 +27,8 @@ toc:
 authors:
   - name: Qirui(Micheli) Liu
     url: "https://micheliliuv87.github.io/"
+    affiliations: 
+    name: Emory University ISOM
 ---
 
 ### **Notes for Readers:**
@@ -45,7 +47,8 @@ authors:
 
 # **Cosine Type Distance**
 
-## **Cosine Distance (Almost same direction in high dimentional vectors, and similar angle)**
+## **Cosine Distance**
+(Almost same direction in high dimentional vectors, and similar angle)
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200911171455/UntitledDiagram2.png" alt="Cosine Similarity" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
 
@@ -181,8 +184,12 @@ $$
 $$
 
 Where
-$$\bar{x} = \frac{1}{d}\sum_{j=1}^{d} x_j \text{ --- is the mean of } \mathbf{x}$$
-$$\bar{y} = \frac{1}{d}\sum_{j=1}^{d} y_j \text{ --- is the mean of } \mathbf{y}$$
+
+$$\bar{x} = \frac{1}{d}\sum_{j=1}^{d} x_j$$
+
+and,
+
+$$\bar{y} = \frac{1}{d}\sum_{j=1}^{d} y_j$$
 
 #### **Pearson Correlation Distance is defined as**:
 
@@ -260,7 +267,7 @@ Pearson Correlation Distance: -2.220446049250313e-16
 
 <br>
 
-## **Spearman Correlation Distance (Rank Correlation)**
+## **Spearman Correlation Distance (Rank Corr)**
 
 <img src="https://statistics.laerd.com/statistical-guides/img/spearman-1-small.png" alt="Spearman Correlation" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
 
@@ -356,7 +363,7 @@ Spearman Correlation Distance: 2.220446049250313e-16
 
 <br>
 
-# **Gernalized Distance (Metric)**
+# **Gernalized Distance (Metrics)**
 
 ## **Minkowski Distance**
 
@@ -472,10 +479,9 @@ Euclidean Distance: 5.385164807134504
 
 <br>
 
-## **Chebyshev Distance (Max Absolute Difference in Coordinate Points)**
+## **Chebyshev Distance (Max abs diff. in Coordinate points)**
 
-<img src="https://iq.opengenus.org/content/images/2018/12/chebyshev.png
-" alt="Chebyshev Distance" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
+<img src="https://iq.opengenus.org/content/images/2018/12/chebyshev.png" alt="Chebyshev Distance" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
 
 #### **Definition**
 
@@ -500,7 +506,7 @@ Simply put, it is the maximum of the absolute differences between corresponding 
 
 #### **How It Works (Intuitive Understanding)**
 
-- Calculate the absolute difference between corresponding coordinates of the two points: $\big|x_i - y_i\big|$.
+- Calculate the absolute difference between corresponding coordinates of the two points: $\lvert x_i - y_i \rvert$.
 - Find the maximum value among these differences.
 - This maximum value is the Chebyshev distance.
 
@@ -539,7 +545,8 @@ Chebyshev Distance: 6
 
 # **Scaled Weighted Distance**
 
-## **Manhalanobis Distance (Scaled Euclidean) (Consider Feature Correlation)**
+## **Manhalanobis Distance (Scaled Euclidean)**
+(Consider Feature Correlation)
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KzsugPQU-BTjvDACXbu9qw.jpeg" alt="Manhalanobis Distance1" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;" />
 
@@ -686,10 +693,10 @@ Sometimes a factor of 2 is seen in the formula (either in front or inside), but 
 #### **Why and How It's Used**
 
 1. **Weighted by Magnitude**:
-   - Each coordinate difference $|s_j - t_j|$ is divided by $|s_j| + |t_j|$.
-   - If both $|s_j|$ and $|t_j|$ are large, the difference is scaled down; if one value is small or zero, the difference is amplified.
+   - Each coordinate difference $\lvert s_j - t_j \rvert$ is divided by $\lvert s_j \rvert + \lvert t_j \rvert$.
+   - If both $\lvert s_j \rvert$ and $\lvert t_j \rvert$ are large, the difference is scaled down; if one value is small or zero, the difference is amplified.
 2. **Very Sensitive to Small Values**:
-   - If a coordinate is near 0, then $|s_j| + |t_j|$ is very small, which causes that term's distance value to become large.
+   - If a coordinate is near 0, then $\lvert s_j \rvert + \lvert t_j \rvert$ is very small, which causes that term's distance value to become large.
    - This makes Canberra distance very sensitive to changes in features with small or zero values.
 3. **Application Scenarios**:
    - Data such as text analysis or gene expression, where zero or near-zero counts are very important.
@@ -697,8 +704,8 @@ Sometimes a factor of 2 is seen in the formula (either in front or inside), but 
 
 #### **How It Works (Intuitive Understanding)**
 
-- For each coordinate j, first compute the absolute difference $|s_j - t_j|$.
-- Then divide by the sum $|s_j| + |t_j|$. If this sum is small, then that coordinate's contribution to the overall distance becomes larger.
+- For each coordinate j, first compute the absolute difference $\lvert s_j - t_j \rvert$.
+- Then divide by the sum $\lver s_j \rvert + \lver t_j \rvert$. If this sum is small, then that coordinate's contribution to the overall distance becomes larger.
 - Sum the results for all dimensions to get the Canberra distance.
 
 Compute $\frac{|1 - 2|}{|1| + |2|} + \frac{|10 - 5|}{|10| + |5|} + \frac{|0 - 3|}{|0| + |3|}$.
