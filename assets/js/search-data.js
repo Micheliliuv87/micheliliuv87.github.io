@@ -37,22 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/2025-01-02-bag-of-words-1/";
-          
-        },
-      },{id: "post-distance-measures-for-data-science",
+        },{id: "post-distance-measures-for-data-science",
         
           title: "Distance Measures for Data Science",
         
-        description: "Include lots of distance measures, which come in handy and help me through many of my data science projects.",
+        description: "Include many distance measures: which come in handy and help me through many of my data science projects",
         section: "Posts",
         handler: () => {
           
@@ -63,11 +52,22 @@ ninja.data = [{
         
           title: "Practical Applications of the Bag of Words Model",
         
-        description: "Application of Bag of words, examples of TF-IDF, Text Classification, and Sentiment Analysis.",
+        description: "Application of Bag of words, examples of TF-IDF, Text Classification, and Sentiment Analysis",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2025/bag-of-words-2/";
+          
+        },
+      },{id: "post-the-bag-of-words-model-a-comprehensive-analysis-of-nlp-39-s-foundational-technique",
+        
+          title: "The Bag of Words Model, A Comprehensive Analysis of NLP&#39;s Foundational Technique",
+        
+        description: "BoW introduction, history, and use cases",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/bag-of-words-1/";
           
         },
       },{id: "books-the-godfather",
@@ -83,8 +83,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-thank-you-for-visiting-sparkles-smile",
-          title: 'Thank you for visiting! :sparkles: :smile:',
+            },},{id: "news-posted-distance-measure-for-data-science-very-useful-notes-that-i-included-my-understanding-in-measuring-distances",
+          title: 'Posted Distance-Measure-for-Data-Science, Very useful notes that I included my understanding in measuring distances....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
