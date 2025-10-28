@@ -83,8 +83,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-posted-distance-measure-for-data-science-very-useful-notes-that-i-included-my-understanding-in-measuring-distances",
-          title: 'Posted Distance Measure for Data Science, Very useful notes that I included my...',
+            },},{id: "news-check-out-my-post-distance-measure-for-data-science-a-useful-note-to-understand-distance-measures-and-when-to-use-them",
+          title: 'Check out my post —- Distance Measure for Data Science, a useful note...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
