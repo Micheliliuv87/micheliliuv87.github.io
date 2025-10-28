@@ -5,4 +5,4 @@ inline: true
 related_posts: true
 ---
 
-Posted [Distance Measure for Data Science](assets/_posts/2025-10-28-distance-measure.md), Very useful notes that I included my understanding in measuring distances.
+Posted [Distance Measure for Data Science](blog/2025/distance-measure/), Very useful notes that I included my understanding in measuring distances.
