@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/distance-measure/";
           
         },
+      },{id: "post-winning-with-data-goizueta-msba-students-shine-in-travelers-university-modeling-competition-voice-of-goizueta",
+        
+          title: 'Winning with Data: Goizueta MSBA Students Shine in Travelers University Modeling Competition -... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Goizueta MSBA students excelled in the Travelers University Modeling Competition, advancing to the semifinals with their innovative predictive model. Read about their experience and key takeaways.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.voiceofgoizueta.com/winning-with-data-goizueta-msba-students-shine-in-travelers-university-modeling-competition/", "_blank");
+          
+        },
       },{id: "post-autoencoder-basics-and-how-to-implement",
         
           title: "Autoencoder Basics and How to Implement",
