@@ -60,7 +60,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/distance-measure-copy/";
+            window.location.href = "/blog/2025/autoencoder-basics/";
           
         },
       },{id: "post-practical-applications-of-the-bag-of-words-model",
