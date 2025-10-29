@@ -4,7 +4,7 @@ title: Practical Applications of the Bag of Words Model
 date: 2025-01-05 21:30:21
 description: Application of Bag of words, examples of TF-IDF, Text Classification, and Sentiment Analysis
 tags: Tutorials
-categories: "Text Processing"
+categories: Text Processing
 citation: true
 toc:
   sidebar: left

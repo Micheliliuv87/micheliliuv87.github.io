@@ -4,7 +4,7 @@ title: Autoencoder Basics and How to Implement
 date: 2025-05-14 14:36:12
 description: "Simple implementation of autoencoder framework"
 tags: Notes
-categories: "Neural Network"
+categories: Neural Network
 citation: true
 authors:
   - name: Micheli Liu
