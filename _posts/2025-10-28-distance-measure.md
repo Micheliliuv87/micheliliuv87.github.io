@@ -30,7 +30,7 @@ toc:
     subsections:
       - name: Manhalanobis Distance (Scaled Euclidean)
       - name: Canberra Distance (Weighted Manhattan)
-
+giscus_comments: true
 
 ---
 
