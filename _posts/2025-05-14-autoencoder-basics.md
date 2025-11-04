@@ -14,7 +14,7 @@ authors:
 
 toc:
   - name: Sparse Autoencoder (SAE)
-
+giscus_comments: true
 
 ---
 # (Still Updating)
