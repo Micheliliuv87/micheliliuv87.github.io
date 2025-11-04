@@ -13,6 +13,7 @@ authors:
     name: Emory University ISOM
 toc:
   sidebar: left
+giscus_comments: true
 ---
 
 ## **Introduction to BoW**
