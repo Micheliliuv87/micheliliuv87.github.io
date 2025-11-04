@@ -93,8 +93,8 @@ ninja.data = [{
             },},{id: "news-graduated-from-emory-university",
           title: 'Graduated From Emory University',
           description: "",
-          section: "News",},{id: "news-upcomming-updates",
-          title: 'Upcomming Updates',
+          section: "News",},{id: "news-upcoming-updates",
+          title: 'Upcoming Updates',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
