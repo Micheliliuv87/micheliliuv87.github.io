@@ -21,7 +21,7 @@ function determineGiscusTheme() {
     "data-repo": "Micheliliuv87/micheliliuv87.github.io",
     "data-repo-id": "R_kgDOQI7Smw",
     "data-category": "Comments",
-    "data-category-id": "",
+    "data-category-id": "DIC_kwDOQI7Sm84Cxa2B",
     "data-mapping": "title",
     "data-strict": "1",
     "data-reactions-enabled": "1",
