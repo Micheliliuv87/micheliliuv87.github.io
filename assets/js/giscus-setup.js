@@ -28,7 +28,7 @@ function determineGiscusTheme() {
     "data-emit-metadata": "0",
     "data-input-position": "bottom",
     "data-theme": giscusTheme,
-    "data-lang": "en, cn",
+    "data-lang": "en",
     crossorigin: "anonymous",
     async: true,
   };
