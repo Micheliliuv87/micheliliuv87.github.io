@@ -215,7 +215,7 @@
       "name": "Python, R & SQL",
       "level": "Expert",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Keras", "dplyr", "grf", "glmnet", "CausalImpact", "SQLite", "MySQL"]
+      "keywords": ["Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Pyomo", "Keras", "dplyr", "grf", "glmnet", "CausalImpact", "SQLite", "MySQL"]
     },
     {
       "name": "Cloud Platforms & Tools",
@@ -250,24 +250,24 @@
   ],
   "interests": [
     {
-      "name": "Machine Learning & AI",
+      "name": "Machine Learning & AI Frameworks",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Supervised Fine-tuning", "Reinforcement Learning with Human Feedback", "Nueral Networks", "Graphical Neural Networks"]
+      "keywords": ["Supervised Fine-tuning", "Reinforcement Learning with Human Feedback", "Neural Networks", "Graphical Neural Networks", "Retrieval Augmented Generation", "Transformers", "Langchain", "Model Context Protocol"]
     },
     {
-      "name": "Cusal Inference & Econometrics",
+      "name": "Causal Inference & Econometrics",
       "icon": "fa-solid fa-tag",
-      "keywords": ["A/B Testing", "Uplift Modeling", "Difference-in-Differences", "Instrumental Variables"]
+      "keywords": ["A/B Testing", "Uplift Modeling", "Difference-in-Differences", "Instrumental Variables", "Double Machine Learning", "Synthetic Control Methods"]
     },
     {
       "name": "Finance & Investment",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Behavioral Finance", "Equity Research", "Portfolio Management", "Derivatives Trading"]
+      "keywords": ["Behavioral Finance", "Equity Research", "Portfolio Management", "Derivatives Trading", "Disccounted Cash Flow Analysis", "Black Scholes Model", "Fama French Model"]
     },
     {
-      "name": "Public Policy & Social Impact",
+      "name": "Public Policy, Economics & Social Impact",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Platform Sustainability", "Social Impact Analysis"]
+      "keywords": ["Platform Sustainability", "Social Impact Analysis", "History of Public Policy", "Social Entrepreneurship", "Macro & Micro Economics"]
     }
   ],
   "references": [
@@ -291,7 +291,8 @@
       "summary": "Built collaborative filtering (KNN) and matrix factorization models using PySpark MLlib on GCP Databricks to recommend products based on 13B+ customer transactions.",
       "highlights": [],
       "startDate": "2025-01",
-      "endDate": "2025-05"
+      "endDate": "2025-05",
+      "url": "https://drive.google.com/file/d/1PTHO9XqxE709uApfpWoCrkwp-XRiQ3w4/view?usp=sharing"
     },
     {
       "name": "Synthetic Control & Geo Testing",
