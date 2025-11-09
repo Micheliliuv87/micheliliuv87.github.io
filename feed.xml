@@ -1,4 +1,230 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://micheliliuv87.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://micheliliuv87.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-11-07T20:37:18+00:00</updated><id>https://micheliliuv87.github.io/feed.xml</id><title type="html">blank</title><subtitle>Webpage containing all my academic research, activities, projects, and blogs. </subtitle><entry><title type="html">Distance Measures for Data Science</title><link href="https://micheliliuv87.github.io/blog/2025/distance-measure/" rel="alternate" type="text/html" title="Distance Measures for Data Science"/><published>2025-10-28T01:46:22+00:00</published><updated>2025-10-28T01:46:22+00:00</updated><id>https://micheliliuv87.github.io/blog/2025/distance-measure</id><content type="html" xml:base="https://micheliliuv87.github.io/blog/2025/distance-measure/"><![CDATA[<h3 id="notes-for-readers"><strong>Notes for Readers:</strong></h3> <ol> <li> <p><strong>Foundational for Data Science:</strong> These distance measures are the bedrock of many fundamental algorithms. You will use them in:</p> <ul> <li><strong>Clustering</strong> (e.g., K-Means, Hierarchical Clustering)</li> <li><strong>Classification</strong> (e.g., K-Nearest Neighbors)</li> <li><strong>Anomaly Detection</strong> (to find outliers)</li> <li><strong>Recommendation Systems</strong> (to find similar users or items)</li> <li><strong>Dimensionality Reduction</strong> (e.g., in the core of MDS or t-SNE)</li> </ul> </li> <li> <p><strong>Ubiquitous in Practice:</strong> The distances covered here include notes and hands-on practices you can try on your own. You will likely encounter them repeatedly in coursework, projects, and real-world applications.</p> </li> <li> <p><strong>A Starting Point, Not the Finish Line:</strong> This collection is not exhaustive (it omits, for example, Hamming distance, Jaccard index, and Earth Mover’s Distance), but it covers the most distances that are at least used once or multiple times in my school and work projects. So it is a good starting point to begin and learn.</p> </li> </ol> <h1 id="cosine-type-distance"><strong>Cosine Type Distance</strong></h1> <h2 id="cosine-distance"><strong>Cosine Distance</strong></h2> <p>(Almost same direction in high dimentional vectors, and similar angle)</p> <p><img src="https://media.geeksforgeeks.org/wp-content/uploads/20200911171455/UntitledDiagram2.png" alt="Cosine Similarity" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;"/></p> <h4 id="definition"><strong>Definition</strong></h4> <p>For vectors $\mathbf{s}$ and $\mathbf{t}$ in d-dimensional space, the <strong>cosine similarity</strong> is defined as:</p> \[\cos(\mathbf{s}, \mathbf{t}) = \frac{\mathbf{s}^\mathsf{T}\mathbf{t}}{\|\mathbf{s}\|_2 \, \|\mathbf{t}\|_2} = \frac{\sum_{j=1}^{d} s_j t_j}{\sqrt{\sum_{j=1}^{d} s_j^2} \cdot \sqrt{\sum_{j=1}^{d} t_j^2}}\] <p>Then the <strong>cosine distance</strong> is:</p> \[d(\mathbf{s}, \mathbf{t}) = 1 - \cos(\mathbf{s}, \mathbf{t})\] <ul> <li>Value Range: Cosine similarity ranges between $[-1, +1]$ <strong>[−1 (perfectly dissimilar) and +1 (perfectly similar)]</strong>. If two vectors have the same direction, similarity $= +1$, distance $= 0$; if they have opposite directions, similarity $= -1$, distance $= 2$(though -1 is less common in many real-world datasets if all values are non-negative).</li> </ul> <h4 id="why-and-how-its-used"><strong>Why and How It’s Used</strong></h4> <ol> <li>Focuses on Orientation, Not Magnitude <ul> <li>Cosine measures the angle between vectors, independent of their magnitudes.</li> <li>Even if vectors differ in overall scale, the cosine similarity can remain high if they point in a similar direction.</li> </ul> </li> <li>Common in Text Analysis <ul> <li>In high-dimensional sparse vectors like (Bag-of-words) TF–IDF, cosine similarity is high if the directions are similar, regardless of absolute frequencies.</li> </ul> </li> <li>Computationally Simple <ul> <li>Only requires the dot product and vector norms, making it relatively efficient to compute.</li> </ul> </li> </ol> <h4 id="how-it-works-intuitive-understanding"><strong>How It Works (Intuitive Understanding)</strong></h4> <ul> <li>The more similar the directions of two vectors, the smaller the angle → the greater the cosine similarity → the smaller the cosine distance.</li> <li>If vectors are almost orthogonal or diverge, the cosine similarity is small → the cosine distance is large.</li> </ul> <h4 id="interpretation"><strong>Interpretation</strong></h4> <ul> <li>$vec_b$ is essentially $vec_a * 2$, so they point in the exact same direction.</li> <li>Cosine similarity is 1.0 → Cosine distance is 0.</li> </ul> <h4 id="example"><strong>Example:</strong></h4> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://micheliliuv87.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://micheliliuv87.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-11-09T20:41:26+00:00</updated><id>https://micheliliuv87.github.io/feed.xml</id><title type="html">blank</title><subtitle>Webpage containing all my academic research, activities, projects, and blogs. </subtitle><entry><title type="html">OOP Class Tutorial 1</title><link href="https://micheliliuv87.github.io/blog/2025/oop-class/" rel="alternate" type="text/html" title="OOP Class Tutorial 1"/><published>2025-11-09T13:47:33+00:00</published><updated>2025-11-09T13:47:33+00:00</updated><id>https://micheliliuv87.github.io/blog/2025/oop-class</id><content type="html" xml:base="https://micheliliuv87.github.io/blog/2025/oop-class/"><![CDATA[<h1 id="object-oriented-programming-oop"><strong>Object Oriented Programming (OOP)</strong></h1> <h2 id="what-is-it-">**What is it? **</h2> <p>Imagine you want to build a LEGO city using code, you will not start with hand-building each house/car/citizen. What you will do instead is to first have a design, which we call blue print (a <strong>Class</strong>). Then you will build based on multiple blue prints to manufacture production (create <strong>Object</strong>). These products should all have their own characteristics (<strong>Attributes</strong>) and abilities (<strong>Methods</strong>). That’s the core idea of OOP: organizing code around things (objects) rather than just a sequence of commands.</p> <h2 id="four-central-pillars"><strong>Four Central Pillars</strong></h2> <h3 id="1-class-and-object">1. <strong>Class</strong> and <strong>Object</strong></h3> <ul> <li><strong>Class</strong> = Blue print for design</li> <li><strong>Object</strong> = Product desigend based on blue print</li> </ul> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Class: Car design 
+</span><span class="k">class</span> <span class="nc">car</span><span class="p">:</span> 
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="n">brand</span><span class="p">):</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">color</span> <span class="c1"># attribute: color
+</span>    <span class="n">self</span><span class="p">.</span><span class="n">brand</span> <span class="o">=</span> <span class="n">brand</span> <span class="c1"># attribute: brand 
+</span>
+  <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>  <span class="c1"># method: drive
+</span>    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">color</span><span class="si">}</span><span class="s">color</span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">brand</span><span class="si">}</span><span class="s">is driving!</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># build the object 
+</span><span class="n">my_car</span> <span class="o">=</span> <span class="nf">car</span><span class="p">(</span><span class="sh">"</span><span class="s">red</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">BMW</span><span class="sh">"</span><span class="p">)</span> <span class="c1"># based on blue print build a red BMW
+</span><span class="n">your_car</span> <span class="o">=</span> <span class="nf">car</span><span class="p">(</span><span class="sh">"</span><span class="s">blue</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Mercedes-Benz</span><span class="sh">"</span><span class="p">)</span> <span class="c1"># then build a Mercedes-Benz
+</span>
+<span class="n">my_car</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span> <span class="c1"># output red BWM is driving!
+</span><span class="n">your_car</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span> <span class="c1"># output blue Mercedes-Benz is driving! 
+</span></code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>red BWM is driving!
+blue Mercedes-Benz is driving! 
+</code></pre></div></div> <h3 id="2-encapsulation"><strong>2. Encapsulation</strong></h3> <p>Imagine your cellphone as a black-box:</p> <ul> <li>What you need to know is how to use buttons (<strong>Method</strong>)</li> <li>What you don’t need to kniw is how it is wired and its circuit (Hiding details)</li> </ul> <p>similar for a bank account, you do not need to understand why each clickble button works on your banking mobile app.</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">BankAccount</span><span class="p">:</span> 
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">__balance</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># private attribute (two under scores)
+</span>
+  <span class="k">def</span> <span class="nf">deposit</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">money</span><span class="p">):</span> <span class="c1"># public method 
+</span>    <span class="k">if</span> <span class="n">money</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="n">self</span><span class="p">.</span><span class="n">__balance</span> <span class="o">+=</span> <span class="n">money</span>
+
+  <span class="k">def</span> <span class="nf">check_balance</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="n">__balance</span>
+
+<span class="c1"># use case 
+</span><span class="n">account</span> <span class="o">=</span> <span class="nc">BankAccount</span><span class="p">()</span>
+<span class="n">account</span><span class="p">.</span><span class="nf">deposit</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">account</span><span class="p">.</span><span class="nf">check_balance</span><span class="p">())</span> <span class="c1"># output 1000
+# account.__balance # this will give you error, because it cannot directly visit private attribute 
+</span></code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1000
+</code></pre></div></div> <h3 id="3-inheritance"><strong>3. Inheritance</strong></h3> <p>Imagine multiple classes, you allow one class to inherit characteristics(<strong>Attribute</strong>) and behaviors(<strong>Method</strong>) from another class. So your newly built class is based on the previous ones (like you inherit your DNA from your parents).</p> <p>What the example is how you can make an animal (cat) breathe and meow.</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Animal</span><span class="p">:</span>
+  <span class="k">def</span> <span class="nf">breathe</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Breathing...</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Cat</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span> <span class="c1"># inherit Animal Class
+</span>  <span class="k">def</span> <span class="nf">meow</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Meowing!</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="n">my_cat</span> <span class="o">=</span> <span class="nc">Cat</span><span class="p">()</span>
+<span class="n">my_cat</span><span class="p">.</span><span class="nf">breathe</span><span class="p">()</span> <span class="c1"># inherit method -&gt; output: Breathing... 
+</span><span class="n">my_cat</span><span class="p">.</span><span class="nf">meow</span><span class="p">()</span> <span class="c1"># own method -&gt; output: Meowing!
+</span></code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Breathing...
+Meowing!
+</code></pre></div></div> <p>If you get this, let’s go deeper:</p> <p>Think of cat’s hierarchical relationship of biological classification:</p> <ul> <li>Animal $\rightarrow$ Mammals $\rightarrow$ Felidae $\rightarrow$ Domestic Cats</li> </ul> <p>(you can think of other examples in your own practice)</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Animal</span><span class="p">:</span> 
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span> 
+
+<span class="k">class</span> <span class="nc">Mammal</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s"> is a mammal.</span><span class="sh">"</span>
+    
+<span class="k">class</span> <span class="nc">Felidae</span><span class="p">(</span><span class="n">Mammal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s"> is a mammal and a member of the Felidae family.</span><span class="sh">"</span>
+    
+<span class="k">class</span> <span class="nc">Cat</span><span class="p">(</span><span class="n">Felidae</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s"> Meowed! Saying I am a mammal, and a member of the Felidae family.</span><span class="sh">"</span>
+    
+<span class="c1"># use case 
+</span><span class="n">my_cat</span> <span class="o">=</span> <span class="nc">Cat</span><span class="p">(</span><span class="sh">"</span><span class="s">Whiskers</span><span class="sh">"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">my_cat</span><span class="p">.</span><span class="nf">speak</span><span class="p">())</span>               <span class="c1"># Output: Whiskers Meowed! Saying I am a mammal, and a member of the Felidae family.
+</span>
+<span class="c1"># if I want to specifically call the Mammal's speak method
+</span><span class="nf">print</span><span class="p">(</span><span class="n">Mammal</span><span class="p">.</span><span class="nf">speak</span><span class="p">(</span><span class="n">my_cat</span><span class="p">))</span>        <span class="c1"># Output: Whiskers is a mammal.
+</span>
+<span class="c1"># same for Felidae
+</span><span class="nf">print</span><span class="p">(</span><span class="n">Felidae</span><span class="p">.</span><span class="nf">speak</span><span class="p">(</span><span class="n">my_cat</span><span class="p">))</span>       <span class="c1"># Output: Whiskers is a mammal and a member of the Felidae family
+</span></code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Whiskers Meowed! Saying I am a mammal, and a member of the Felidae family.
+Whiskers is a mammal.
+Whiskers is a mammal and a member of the Felidae family.
+</code></pre></div></div> <h3 id="4-polymorphism"><strong>4. Polymorphism</strong></h3> <p>The idea is to define multiple <strong>methods</strong> with the same name in different <strong>classes</strong>. Then you can call each based on the <strong>object</strong> you are calling.</p> <p>When you are using APPs on your smart phone, the same <code class="language-plaintext highlighter-rouge">play</code> botton will do:</p> <ul> <li>Music APP: play songs</li> <li>Video APP: play film</li> </ul> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">MediaPlayer</span><span class="p">:</span> 
+  <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="k">pass</span> <span class="c1"># meaning you don't run this but make it as a placeholder
+</span>
+<span class="k">class</span> <span class="nc">AudioPlayer</span><span class="p">(</span><span class="n">MediaPlayer</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Play MP3 Music</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">VideoPlayer</span><span class="p">(</span><span class="n">MediaPlayer</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Play MP4 Video</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># use the same API call 
+</span><span class="n">players</span> <span class="o">=</span> <span class="p">[</span><span class="nc">VideoPlayer</span><span class="p">(),</span><span class="nc">AudioPlayer</span><span class="p">()]</span> <span class="c1"># you first build two different players 
+</span><span class="k">for</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">players</span><span class="p">:</span>
+  <span class="n">player</span><span class="p">.</span><span class="nf">play</span><span class="p">()</span>
+</code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Play MP4 Video
+Play MP3 Music
+</code></pre></div></div> <p>If you understood the previous lets go deeper:</p> <p>Think of animal example we had, but this time we add dog and make them speak differently.</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Animal</span><span class="p">:</span> 
+    <span class="k">def</span> <span class="nf">sound</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<span class="k">class</span> <span class="nc">Dog</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">sound</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sh">"</span><span class="s">Woof!</span><span class="sh">"</span>
+    
+<span class="k">class</span> <span class="nc">Cat</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">sound</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sh">"</span><span class="s">Meow!</span><span class="sh">"</span>
+
+<span class="c1"># use case
+</span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="nc">Dog</span><span class="p">(),</span><span class="nc">Cat</span><span class="p">()]</span>
+<span class="k">for</span> <span class="n">animal</span> <span class="ow">in</span> <span class="n">animals</span><span class="p">:</span> 
+    <span class="nf">print</span><span class="p">(</span><span class="n">animal</span><span class="p">.</span><span class="nf">sound</span><span class="p">())</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">-----</span><span class="sh">"</span><span class="p">)</span>
+<span class="c1"># if you only want to make dog sound
+</span><span class="n">dog</span> <span class="o">=</span> <span class="nc">Dog</span><span class="p">()</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">dog</span><span class="p">.</span><span class="nf">sound</span><span class="p">())</span>  <span class="c1"># Output: Woof!
+</span></code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Woof!
+<span class="gh">Meow!
+-----
+</span>Woof!
+</code></pre></div></div> <h2 id="so-why-oop"><strong>So Why OOP?</strong></h2> <p>Comparing to traditional programming, if you were to design a school management system</p> <p><strong>Procedural Programming:</strong></p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># naming attributes on them own (mostly configs)
+</span><span class="n">student1_name</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Bob</span><span class="sh">"</span>
+<span class="n">student1_age</span> <span class="o">=</span> <span class="sh">"</span><span class="s">19</span><span class="sh">"</span>
+<span class="n">student1_grade</span> <span class="o">=</span> <span class="mi">85</span>
+
+<span class="n">teacher1_name</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Dr.Liu</span><span class="sh">"</span>
+<span class="n">teacher1_subject</span> <span class="o">=</span> <span class="sh">"</span><span class="s">ISOM</span><span class="sh">"</span>
+
+<span class="c1"># function for parsing through attributes 
+</span><span class="k">def</span> <span class="nf">print_student_info</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">grade</span><span class="p">):</span>
+  <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Student </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">, age </span><span class="si">{</span><span class="n">age</span><span class="si">}</span><span class="s">, grade </span><span class="si">{</span><span class="n">grade</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">print_teacher_info</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="n">subject</span><span class="p">):</span>
+  <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Teacher </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">, teaching </span><span class="si">{</span><span class="n">subject</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># using the functions
+</span><span class="nf">print_student_info</span><span class="p">(</span><span class="n">student1_name</span><span class="p">,</span><span class="n">student1_age</span><span class="p">,</span><span class="n">student1_grade</span><span class="p">)</span>
+<span class="nf">print_teacher_info</span><span class="p">(</span><span class="n">teacher1_name</span><span class="p">,</span><span class="n">teacher1_subject</span><span class="p">)</span>
+
+<span class="c1"># if you want to print what Dr.Liu is teaching
+</span><span class="nf">print</span><span class="p">(</span><span class="n">teacher1_subject</span><span class="p">)</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">-----</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># if you want to add another student let's say student2 is Mick
+</span><span class="n">student2_name</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Mick</span><span class="sh">"</span>
+<span class="n">student2_age</span> <span class="o">=</span> <span class="mi">25</span>
+<span class="n">student2_grade</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="nf">print_student_info</span><span class="p">(</span><span class="n">student2_name</span><span class="p">,</span><span class="n">student2_age</span><span class="p">,</span><span class="n">student2_grade</span><span class="p">)</span>
+</code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Student Bob, age 19, grade 85
+Teacher Dr.Liu, teaching ISOM
+<span class="gh">ISOM
+-----
+</span>Student Mick, age 25, grade 100
+</code></pre></div></div> <p><strong>OOP Programming:</strong></p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Student</span><span class="p">:</span> 
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">grade</span><span class="p">):</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">grade</span> <span class="o">=</span> <span class="n">grade</span>
+
+  <span class="k">def</span> <span class="nf">print_info</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Student </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s">, age </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">age</span><span class="si">}</span><span class="s">, grade </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">grade</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Teacher</span><span class="p">:</span> 
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">subject</span><span class="p">):</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">subject</span> <span class="o">=</span> <span class="n">subject</span> 
+
+  <span class="k">def</span> <span class="nf">print_info</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Teacher </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s">, teaching </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">subject</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># use case
+</span><span class="n">student1</span> <span class="o">=</span> <span class="nc">Student</span><span class="p">(</span><span class="sh">"</span><span class="s">Bob</span><span class="sh">"</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">85</span><span class="p">)</span>
+<span class="n">teacher1</span> <span class="o">=</span> <span class="nc">Teacher</span><span class="p">(</span><span class="sh">"</span><span class="s">Dr.Liu</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">ISOM</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="n">student1</span><span class="p">.</span><span class="nf">print_info</span><span class="p">()</span>
+<span class="n">teacher1</span><span class="p">.</span><span class="nf">print_info</span><span class="p">()</span>
+
+<span class="c1"># if you want to print specific like teacher's subject 
+</span><span class="nf">print</span><span class="p">(</span><span class="n">teacher1</span><span class="p">.</span><span class="n">subject</span><span class="p">)</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">-----</span><span class="sh">"</span><span class="p">)</span>
+<span class="c1"># if you want to add another student let's say student2 is Mick
+</span><span class="n">student2</span> <span class="o">=</span> <span class="nc">Student</span><span class="p">(</span><span class="sh">"</span><span class="s">Mick</span><span class="sh">"</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+
+<span class="n">student2</span><span class="p">.</span><span class="nf">print_info</span><span class="p">()</span>
+</code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>student Bob, age 19, grade 85
+teacher Dr.Liu, teaching ISOM
+<span class="gh">ISOM
+-----
+</span>student Mick, age 25, grade 100
+</code></pre></div></div> <p>To compare the differences see the table:</p> <table> <thead> <tr> <th>Aspect</th> <th>Procedural Programming</th> <th>Object-Oriented Programming (OOP)</th> </tr> </thead> <tbody> <tr> <td>Code Organization</td> <td>Data and functions are separate</td> <td>Data and methods are bound within objects</td> </tr> <tr> <td>Maintenance Cost</td> <td>Modifications may affect many places</td> <td>Changes are concentrated within the class</td> </tr> <tr> <td>Extensibility</td> <td>Adding new features often requires refactoring</td> <td>Easily extended via inheritance</td> </tr> <tr> <td>Code Reuse</td> <td>Copying and pasting code segments</td> <td>Reuse via class inheritance</td> </tr> <tr> <td>Real-World Mapping</td> <td>Less intuitive for human thinking</td> <td>Intuitive, like building blocks (Lego)</td> </tr> </tbody> </table> <h2 id="when-to-use-oop"><strong>When to use OOP?</strong></h2> <ul> <li>When the system contains multiple similar entities (e.g., Web merchants’ products/orders/users)</li> <li>Your project requires long-term maintenance</li> <li>Need to build complex interactive relationships (one class works with another)</li> <li>Developed collaboratively by multiple developers (with decoupling of modules)</li> </ul> <p>A more comprehensive example:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Book</span><span class="p">:</span> 
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">author</span><span class="p">,</span> <span class="n">pages</span><span class="p">):</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">title</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">author</span> <span class="o">=</span> <span class="n">author</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">pages</span> <span class="o">=</span> <span class="n">pages</span>
+
+  <span class="k">def</span> <span class="nf">get_info</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">You purchased a book: Book title: </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">title</span><span class="si">}</span><span class="s">, Author: </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">author</span><span class="si">}</span><span class="s">, Pages: </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">pages</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+
+  <span class="k">def</span> <span class="nf">read_page</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span> 
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="n">self</span><span class="p">.</span><span class="n">pages</span><span class="p">:</span>
+      <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Now reading </span><span class="se">\"</span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">title</span><span class="si">}</span><span class="se">\"</span><span class="s"> by </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">author</span><span class="si">}</span><span class="s">, page: </span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span> 
+      <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Finished Reading!</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># creating objects 
+</span><span class="n">book1</span> <span class="o">=</span> <span class="nc">Book</span><span class="p">(</span><span class="sh">"</span><span class="s">How to Learn Python</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Dr.CS</span><span class="sh">"</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+<span class="n">book2</span> <span class="o">=</span> <span class="nc">Book</span><span class="p">(</span><span class="sh">"</span><span class="s">You Should Know Statistics</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Dr.SAT</span><span class="sh">"</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
+
+<span class="c1"># reading book 1
+</span><span class="n">book1</span><span class="p">.</span><span class="nf">get_info</span><span class="p">()</span>
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">reading 100 pages...</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">book1</span><span class="p">.</span><span class="nf">read_page</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">-----</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># reading book 2 
+</span><span class="n">book2</span><span class="p">.</span><span class="nf">get_info</span><span class="p">()</span>
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">reading 600 pages...</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">book2</span><span class="p">.</span><span class="nf">read_page</span><span class="p">(</span><span class="mi">600</span><span class="p">)</span>
+</code></pre></div></div> <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You purchased a book: Book title: How to Learn Python, Author: Dr.CS, Pages: 200
+reading 100 pages...
+<span class="gh">Now reading "How to Learn Python" by Dr.CS, page: 100
+-----
+</span>You purchased a book: Book title: You Should Know Statistics, Author: Dr.SAT, Pages: 500
+reading 600 pages...
+Finished Reading!
+</code></pre></div></div>]]></content><author><name>Micheli Liu</name></author><category term="CS"/><category term="Notes"/><summary type="html"><![CDATA[Class basics, from understanding to use]]></summary></entry><entry><title type="html">Distance Measures for Data Science</title><link href="https://micheliliuv87.github.io/blog/2025/distance-measure/" rel="alternate" type="text/html" title="Distance Measures for Data Science"/><published>2025-10-28T01:46:22+00:00</published><updated>2025-10-28T01:46:22+00:00</updated><id>https://micheliliuv87.github.io/blog/2025/distance-measure</id><content type="html" xml:base="https://micheliliuv87.github.io/blog/2025/distance-measure/"><![CDATA[<h3 id="notes-for-readers"><strong>Notes for Readers:</strong></h3> <ol> <li> <p><strong>Foundational for Data Science:</strong> These distance measures are the bedrock of many fundamental algorithms. You will use them in:</p> <ul> <li><strong>Clustering</strong> (e.g., K-Means, Hierarchical Clustering)</li> <li><strong>Classification</strong> (e.g., K-Nearest Neighbors)</li> <li><strong>Anomaly Detection</strong> (to find outliers)</li> <li><strong>Recommendation Systems</strong> (to find similar users or items)</li> <li><strong>Dimensionality Reduction</strong> (e.g., in the core of MDS or t-SNE)</li> </ul> </li> <li> <p><strong>Ubiquitous in Practice:</strong> The distances covered here include notes and hands-on practices you can try on your own. You will likely encounter them repeatedly in coursework, projects, and real-world applications.</p> </li> <li> <p><strong>A Starting Point, Not the Finish Line:</strong> This collection is not exhaustive (it omits, for example, Hamming distance, Jaccard index, and Earth Mover’s Distance), but it covers the most distances that are at least used once or multiple times in my school and work projects. So it is a good starting point to begin and learn.</p> </li> </ol> <h1 id="cosine-type-distance"><strong>Cosine Type Distance</strong></h1> <h2 id="cosine-distance"><strong>Cosine Distance</strong></h2> <p>(Almost same direction in high dimentional vectors, and similar angle)</p> <p><img src="https://media.geeksforgeeks.org/wp-content/uploads/20200911171455/UntitledDiagram2.png" alt="Cosine Similarity" style="display:block; margin:0 auto; max-width:100%; height:auto; max-height:480px;"/></p> <h4 id="definition"><strong>Definition</strong></h4> <p>For vectors $\mathbf{s}$ and $\mathbf{t}$ in d-dimensional space, the <strong>cosine similarity</strong> is defined as:</p> \[\cos(\mathbf{s}, \mathbf{t}) = \frac{\mathbf{s}^\mathsf{T}\mathbf{t}}{\|\mathbf{s}\|_2 \, \|\mathbf{t}\|_2} = \frac{\sum_{j=1}^{d} s_j t_j}{\sqrt{\sum_{j=1}^{d} s_j^2} \cdot \sqrt{\sum_{j=1}^{d} t_j^2}}\] <p>Then the <strong>cosine distance</strong> is:</p> \[d(\mathbf{s}, \mathbf{t}) = 1 - \cos(\mathbf{s}, \mathbf{t})\] <ul> <li>Value Range: Cosine similarity ranges between $[-1, +1]$ <strong>[−1 (perfectly dissimilar) and +1 (perfectly similar)]</strong>. If two vectors have the same direction, similarity $= +1$, distance $= 0$; if they have opposite directions, similarity $= -1$, distance $= 2$(though -1 is less common in many real-world datasets if all values are non-negative).</li> </ul> <h4 id="why-and-how-its-used"><strong>Why and How It’s Used</strong></h4> <ol> <li>Focuses on Orientation, Not Magnitude <ul> <li>Cosine measures the angle between vectors, independent of their magnitudes.</li> <li>Even if vectors differ in overall scale, the cosine similarity can remain high if they point in a similar direction.</li> </ul> </li> <li>Common in Text Analysis <ul> <li>In high-dimensional sparse vectors like (Bag-of-words) TF–IDF, cosine similarity is high if the directions are similar, regardless of absolute frequencies.</li> </ul> </li> <li>Computationally Simple <ul> <li>Only requires the dot product and vector norms, making it relatively efficient to compute.</li> </ul> </li> </ol> <h4 id="how-it-works-intuitive-understanding"><strong>How It Works (Intuitive Understanding)</strong></h4> <ul> <li>The more similar the directions of two vectors, the smaller the angle → the greater the cosine similarity → the smaller the cosine distance.</li> <li>If vectors are almost orthogonal or diverge, the cosine similarity is small → the cosine distance is large.</li> </ul> <h4 id="interpretation"><strong>Interpretation</strong></h4> <ul> <li>$vec_b$ is essentially $vec_a * 2$, so they point in the exact same direction.</li> <li>Cosine similarity is 1.0 → Cosine distance is 0.</li> </ul> <h4 id="example"><strong>Example:</strong></h4> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
 
 <span class="k">def</span> <span class="nf">cosine_distance</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">t</span><span class="p">):</span>
     <span class="n">s</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>

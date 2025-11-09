@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-distance-measures-for-data-science",
+        },{id: "post-oop-class-tutorial-1",
+        
+          title: "OOP Class Tutorial 1",
+        
+        description: "Class basics, from understanding to use",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/oop-class/";
+          
+        },
+      },{id: "post-distance-measures-for-data-science",
         
           title: "Distance Measures for Data Science",
         
