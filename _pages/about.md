@@ -30,9 +30,13 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-**Qirui(Micheli) Liu** is a graduate from Emory University Goizueta Business School 2025, currently serving as a Graduate Research Assistant at Emory University.
+**Qirui(Micheli) Liu** is a graduate student in the Master of Science in Business Analytics program at Emory University’s Goizueta Business School (Class of 2025) and a research assistant in Information Systems & Operations Management.
 
-His research focuses on Information Systems, particularly causal inference and applied machine learning. 
+He is passionate about using causal inference and machine learning to understand how digital platforms, algorithms, and human behavior interact in the real world. His recent work studies NFT price dynamics, combining transaction-level data with modern causal methods (post-double selection, causal forests, and heterogeneous treatment analysis) to quantify how traits, timing, and buyer–seller behaviors shape asset prices.
+
+Before Emory, Qirui earned his B.S. in Finance from Miami University, where he managed a $900,000 IT-sector allocation in a student-run endowment as an Equity Analyst. Professionally, he has worked across product, data, and AI roles at organizations such as Miracle Plus (formerly Y Combinator China), NCR Voiyx, and ByteDance, helping design and build AI agents, recommender systems, and data pipelines that connect rigorous analytics with practical business decisions.
+
+Across research and industry, he enjoys taking messy, large-scale data and turning it into causal stories and deployable systems—from data collection scripts and modeling pipelines to tools that non-technical stakeholders can actually use. He hopes to continue this work in a PhD program, focusing on the economics and governance of digital platforms and data-driven decision making.
 
 <!-- To learn more about his work, see [publications](/publications/). -->
 
