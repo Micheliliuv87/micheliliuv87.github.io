@@ -29,7 +29,6 @@
       "url": "",
       "startDate": "2024-07",
       "endDate": "Present",
-      "summary": "Working on inference models, LLM theories, and DL/RL pipelines.",
       "highlights": ["INFORMS Presentation", "ICIS In Proceeding"]
     },
     {
@@ -38,7 +37,6 @@
       "url": "",
       "startDate": "2025-07",
       "endDate": "Present",
-      "summary": "Data labeling and defining rubrics for LLM model training.",
       "highlights": []
     },
     {
@@ -47,43 +45,38 @@
       "url": "https://www.miracleplus.com/",
       "startDate": "2023-10",
       "endDate": "2025-08",
-      "summary": "Developed automated AI agents to operate a forum. Authored AI production and application-focused research reports.",
       "highlights": []
     },
     {
       "name": "NCR Voiyx",
-      "position": "Data Scientist",
+      "position": "Data Scientist Intern",
       "url": "https://www.ncrvoyix.com/",
       "startDate": "2024-12",
       "endDate": "2025-05",
-      "summary": "Developed recommender system pipeline for new products.",
       "highlights": []
     },
     {
       "name": "Miracle Plus",
-      "position": "Head of Entrepreneurial Expansion",
+      "position": "Head of Entrepreneurial Expansion - Hackathon",
       "url": "https://www.miracleplus.com/",
       "startDate": "2023-02",
       "endDate": "2023-10",
-      "summary": "Research and due diligence, finalized investment deals.",
       "highlights": ["Recognized for 'Hundred Innovators Leading Award' from company"]
     },
     {
       "name": "Sinolink Security",
-      "position": "Financial Advisor",
+      "position": "Financial Advisor Intern",
       "url": "https://www.gjzq.com.cn/main/index.html",
-      "startDate": "2023-01",
+      "startDate": "2022-12",
       "endDate": "2023-02",
-      "summary": "Provided investment advisory to clients.",
       "highlights": []
     },
     {
       "name": "Miami University Student Managed Investment Fund",
       "position": "Equity Analyst",
       "url": "https://miamioh.edu/fsb/departments/finance/student-investment-fund.html",
-      "startDate": "2022-01",
+      "startDate": "2021-12",
       "endDate": "2022-05",
-      "summary": "Investment portfolio management.",
       "highlights": []
     },
     {
@@ -92,16 +85,14 @@
       "url": "https://baike.baidu.com/item/%E5%93%A6%E5%90%BC%E8%80%B6/50412200",
       "startDate": "2020-04",
       "endDate": "2021-07",
-      "summary": "Launched Chengdu branch of the chain restaurants.",
       "highlights": []
     },
     {
-      "name": "Evolution Capital",
+      "name": "Evolution Capital Intern",
       "position": "Equity Research Assistant",
       "url": "http://www.evolution-cap.com/",
       "startDate": "2019-05",
       "endDate": "2019-08",
-      "summary": "Internship focused on portfolio returns and equity research.",
       "highlights": []
     }
   ],
@@ -111,18 +102,17 @@
       "location": "Ohio, United States",
       "position": "Calligraphy Teacher",
       "url": "https://events.miamioh.edu/event/art_after_dark_4057",
-      "startDate": "2018-10",
-      "endDate": "2022-05",
-      "summary": "Teaching calligraphy and traditional arts to participants. Showcased student art works at annual art events at Miami University.",
-      "highlights": ["Recognized by the President of Miami University"]
+      "startDate": "2018",
+      "endDate": "2022",
+      "highlights": []
     },
     {
       "organization": "EcoReps Miami University",
       "location": "Ohio, United States",
       "position": "Member",
       "url": "https://miamioh.campuslabs.com/engage/organization/EcoReps",
-      "startDate": "2018-09",
-      "endDate": "2022-05",
+      "startDate": "2018",
+      "endDate": "2022",
       "summary": "Facilitated campus sustainability and environmental protection.",
       "highlights": ["Fundraised and promoted 'Walter Bottle' project", "Recognized for campus involvement"]
     },
@@ -131,8 +121,8 @@
       "location": "Ohio, United States",
       "position": "Vice President",
       "url": "https://muhub.campuslabs.com/engage/organization/NRHH",
-      "startDate": "2019-05",
-      "endDate": "2020-05",
+      "startDate": "2019",
+      "endDate": "2020",
       "summary": "Oversaw the writing bid process for national and regional leadership conferences. Organized induction process.",
       "highlights": ["Awarded 'Student Spotlight' award for campus involvement", "Recognized by the NRHH committee"]
     },
@@ -141,8 +131,8 @@
       "location": "Ohio, United States",
       "position": "Site Leader",
       "url": "https://www.miamioh.edu/news/top-stories/2019/03/alternative-spring-break-2019.html",
-      "startDate": "2018-10",
-      "endDate": "2019-04",
+      "startDate": "2018",
+      "endDate": "2019",
       "summary": "Organized service trip to Nashville, Tennessee, focusing on recognizing and understanding gentrification.",
       "highlights": ["Recognized by Miami University Student Life News"]
     }
