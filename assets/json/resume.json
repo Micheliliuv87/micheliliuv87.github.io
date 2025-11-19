@@ -159,8 +159,8 @@
       "url": "https://www.emory.edu",
       "area": "Business Analytics",
       "studyType": "M.S.",
-      "startDate": "2024-07",
-      "endDate": "2025-05"
+      "startDate": "2024",
+      "endDate": "2025"
     },
     {
       "institution": "Miami University",
@@ -168,8 +168,8 @@
       "url": "https://miamioh.edu",
       "area": "Business: Finance",
       "studyType": "B.S.",
-      "startDate": "2018-08",
-      "endDate": "2022-05"
+      "startDate": "2018",
+      "endDate": "2022"
     }
   ],
   "awards": [],
