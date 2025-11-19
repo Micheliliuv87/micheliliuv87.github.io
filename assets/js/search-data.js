@@ -104,12 +104,7 @@ ninja.data = [{
             },},{id: "news-graduated-from-emory-university",
           title: 'Graduated From Emory University',
           description: "",
-          section: "News",},{id: "news-upcoming-updates",
-          title: 'Upcoming Updates',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-check-out-my-post-distance-measure-for-data-science-a-useful-note-to-understand-distance-measures-and-when-to-use-them",
+          section: "News",},{id: "news-check-out-my-post-distance-measure-for-data-science-a-useful-note-to-understand-distance-measures-and-when-to-use-them",
           title: 'Check out my post — Distance Measure for Data Science, a useful note...',
           description: "",
           section: "News",},{id: "projects-project-1",
