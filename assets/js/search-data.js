@@ -101,10 +101,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-graduated-from-emory-university",
-          title: 'Graduated From Emory University',
-          description: "",
-          section: "News",},{id: "news-check-out-my-post-distance-measure-for-data-science-a-useful-note-to-understand-distance-measures-and-when-to-use-them",
+            },},{id: "news-check-out-my-post-distance-measure-for-data-science-a-useful-note-to-understand-distance-measures-and-when-to-use-them",
           title: 'Check out my post — Distance Measure for Data Science, a useful note...',
           description: "",
           section: "News",},{id: "projects-project-1",
@@ -157,7 +154,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6D%69%63%68%65%6C%69.%6C%69%75@%61%6C%75%6D%6E%69.%65%6D%6F%72%79.%65%64%75", "_blank");
+          window.open("mailto:%6D%69%63%68%65%6C%69%6C%69%75@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-discord',
@@ -179,13 +176,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/micheli87", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/Mickyv87", "_blank");
         },
       },{
         id: 'social-wechat_qr',
