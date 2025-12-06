@@ -89,6 +89,10 @@
           </d-contents>
         {% endif %}
         {{ content }}
+
+        {% if page.citation %}
+          {% include citation.liquid %}
+        {% endif %}
       </d-article>
 
       <d-appendix>
