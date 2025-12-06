@@ -5,7 +5,6 @@ date: 2025-01-02 16:40:16
 description: BoW introduction, history, and use cases
 tags: Tutorials
 categories: "TextProcessing"
-citation: true
 authors:
   - name: Qirui(Micheli) Liu
     url: "https://micheliliuv87.github.io/"
@@ -14,6 +13,7 @@ authors:
 toc:
   sidebar: left
 giscus_comments: true
+citation: true
 ---
 
 ## **Introduction to BoW**
