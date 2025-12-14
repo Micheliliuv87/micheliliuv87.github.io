@@ -32,7 +32,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 **Qirui(Micheli) Liu** is a graduate student in the Master of Science in Business Analytics program at Emory University’s Goizueta Business School (Class of 2025) and a research assistant in Information Systems & Operations Management.
 
-He is passionate about using causal inference and machine learning to understand how digital platforms, algorithms, and human behavior interact.
+He is passionate about understanding how behavior shifts over time and how digital platforms, algorithms, and human behavior interact.
 
 <!-- To learn more about his work, see [publications](/publications/). -->
 
