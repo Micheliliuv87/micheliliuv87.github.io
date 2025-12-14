@@ -10,16 +10,9 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Atlanta",
-      "countryCode": "US",
-      "region": "Georgia"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "",
-        "url": "https://www.linkedin.com/in/micheli87/"
-      }
-    ]
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    }
   }
 }
