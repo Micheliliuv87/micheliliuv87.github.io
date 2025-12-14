@@ -10,18 +10,18 @@ profile:
   image_circular: false # crops the image to make it circular
   # more_info: >
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  enabled: false # includes a list of news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 5 # leave blank to include all the blog posts
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -32,7 +32,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 **Qirui(Micheli) Liu** is a graduate student in the Master of Science in Business Analytics program at Emory University’s Goizueta Business School (Class of 2025) and a research assistant in Information Systems & Operations Management.
 
-He is passionate about using causal inference and machine learning to understand how digital platforms, algorithms, and human behavior interact in the real world. 
+He is passionate about using causal inference and machine learning to understand how digital platforms, algorithms, and human behavior interact.
 
 <!-- To learn more about his work, see [publications](/publications/). -->
 
