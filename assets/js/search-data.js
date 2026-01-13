@@ -30,7 +30,73 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-oop-class-tutorial-1",
+        
+          title: "OOP Class Tutorial 1",
+        
+        description: "Class basics, from understanding to use",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/oop-class/";
+          
+        },
+      },{id: "post-distance-measures-for-data-science",
+        
+          title: "Distance Measures for Data Science",
+        
+        description: "Include many distance measures: which come in handy and help me through many of my data science projects",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/distance-measure/";
+          
+        },
+      },{id: "post-winning-with-data-goizueta-msba-students-shine-in-travelers-university-modeling-competition-voice-of-goizueta",
+        
+          title: 'Winning with Data: Goizueta MSBA Students Shine in Travelers University Modeling Competition -... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Goizueta MSBA students excelled in the Travelers University Modeling Competition, advancing to the semifinals with their innovative predictive model. Read about their experience and key takeaways.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.voiceofgoizueta.com/winning-with-data-goizueta-msba-students-shine-in-travelers-university-modeling-competition/", "_blank");
+          
+        },
+      },{id: "post-autoencoder-basics-and-how-to-implement",
+        
+          title: "Autoencoder Basics and How to Implement",
+        
+        description: "Simple implementation of autoencoder framework",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/autoencoder-basics/";
+          
+        },
+      },{id: "post-practical-applications-of-the-bag-of-words-model",
+        
+          title: "Practical Applications of the Bag of Words Model",
+        
+        description: "Application of Bag of words, examples of TF-IDF, Text Classification, and Sentiment Analysis",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/bag-of-words-2/";
+          
+        },
+      },{id: "post-the-bag-of-words-model-a-comprehensive-analysis-of-nlp-39-s-foundational-technique",
+        
+          title: "The Bag of Words Model, A Comprehensive Analysis of NLP&#39;s Foundational Technique",
+        
+        description: "BoW introduction, history, and use cases",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/bag-of-words-1/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
