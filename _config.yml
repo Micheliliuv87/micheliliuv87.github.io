@@ -49,8 +49,8 @@ repo_trophies:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-posts_in_search: true
+socials_in_search: false #changed 01/12/26
+posts_in_search: false #changed 01/12/26
 bib_search: true
 
 # Dimensions
@@ -150,9 +150,9 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false #changed 01/12/26
   projects:
-    output: true
+    output: false #changed 01/12/26
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
