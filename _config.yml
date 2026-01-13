@@ -50,12 +50,12 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: false # 01/12/26
 socials_in_search: false #changed 01/12/26
-posts_in_search: true #changed 01/12/26
-blog_posts_in_search: true #changed 01/12/26
+posts_in_search: false #changed 01/12/26
+blog_posts_in_search: false #changed 01/12/26
 books_in_search: false #changed 01/12/26
 projects_in_search: false #changed 01/12/26
-publications_in_search: true #changed 01/12/26
-bib_search: true
+publications_in_search: false #changed 01/12/26
+bib_search: false
 
 # Dimensions
 max_width: 930px
