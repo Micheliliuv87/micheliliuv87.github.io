@@ -30,9 +30,9 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-**Qirui(Micheli) Liu** is a graduate student in the Master of Science in Business Analytics program at Emory University’s Goizueta Business School (Class of 2025) and a research assistant in Information Systems & Operations Management.
+**Qirui(Micheli) Liu** is a graduate of the M.S. in Business Analytics program at Emory University’s Goizueta Business School, Class of 2025, and a Data Science Research Assistant in Information Systems & Operations Management. His work sits at the intersection of digital platforms, behavioral analytics, causal inference, and AI-driven data systems.
 
-He is passionate about understanding how behavior shifts over time and how digital platforms, algorithms, and human behavior interact.
+He is especially interested in how user behavior, market signals, and platform mechanisms evolve over time, and how algorithms shape decision-making in digital environments. His recent work includes causal and machine-learning research on NFT market dynamics, recommender-system development using large-scale transaction data, and localized RAG + LLM pipelines for generating high-quality multi-turn training data. More broadly, he is passionate about building agentic AI workflows that connect data engineering, retrieval, evaluation, and generation into practical, scalable systems.
 
 <!-- To learn more about his work, see [publications](/publications/). -->
 
